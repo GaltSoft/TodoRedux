@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F18E92521FD4CF9D00553597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E92511FD4CF9D00553597 /* AppDelegate.swift */; };
+		F18E92541FD4CF9D00553597 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E92531FD4CF9D00553597 /* ViewController.swift */; };
+		F18E92571FD4CF9D00553597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18E92551FD4CF9D00553597 /* Main.storyboard */; };
+		F18E925A1FD4CF9D00553597 /* TodoRedux.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F18E92581FD4CF9D00553597 /* TodoRedux.xcdatamodeld */; };
+		F18E925C1FD4CF9D00553597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F18E925B1FD4CF9D00553597 /* Assets.xcassets */; };
+		F18E925F1FD4CF9D00553597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18E925D1FD4CF9D00553597 /* LaunchScreen.storyboard */; };
+		F18E926A1FD4CF9D00553597 /* TodoReduxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E92691FD4CF9D00553597 /* TodoReduxTests.swift */; };
+		F18E92751FD4CF9D00553597 /* TodoReduxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E92741FD4CF9D00553597 /* TodoReduxUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F18E92661FD4CF9D00553597 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F18E92461FD4CF9D00553597 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F18E924D1FD4CF9D00553597;
+			remoteInfo = TodoRedux;
+		};
+		F18E92711FD4CF9D00553597 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F18E92461FD4CF9D00553597 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F18E924D1FD4CF9D00553597;
+			remoteInfo = TodoRedux;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F18E924E1FD4CF9D00553597 /* TodoRedux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoRedux.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18E92511FD4CF9D00553597 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F18E92531FD4CF9D00553597 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F18E92561FD4CF9D00553597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F18E92591FD4CF9D00553597 /* TodoRedux.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TodoRedux.xcdatamodel; sourceTree = "<group>"; };
+		F18E925B1FD4CF9D00553597 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F18E925E1FD4CF9D00553597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F18E92601FD4CF9D00553597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F18E92651FD4CF9D00553597 /* TodoReduxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoReduxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18E92691FD4CF9D00553597 /* TodoReduxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoReduxTests.swift; sourceTree = "<group>"; };
+		F18E926B1FD4CF9D00553597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F18E92701FD4CF9D00553597 /* TodoReduxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoReduxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18E92741FD4CF9D00553597 /* TodoReduxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoReduxUITests.swift; sourceTree = "<group>"; };
+		F18E92761FD4CF9D00553597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F18E924B1FD4CF9D00553597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18E92621FD4CF9D00553597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18E926D1FD4CF9D00553597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F18E92451FD4CF9D00553597 = {
+			isa = PBXGroup;
+			children = (
+				F18E92501FD4CF9D00553597 /* TodoRedux */,
+				F18E92681FD4CF9D00553597 /* TodoReduxTests */,
+				F18E92731FD4CF9D00553597 /* TodoReduxUITests */,
+				F18E924F1FD4CF9D00553597 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F18E924F1FD4CF9D00553597 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F18E924E1FD4CF9D00553597 /* TodoRedux.app */,
+				F18E92651FD4CF9D00553597 /* TodoReduxTests.xctest */,
+				F18E92701FD4CF9D00553597 /* TodoReduxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F18E92501FD4CF9D00553597 /* TodoRedux */ = {
+			isa = PBXGroup;
+			children = (
+				F18E92511FD4CF9D00553597 /* AppDelegate.swift */,
+				F18E92531FD4CF9D00553597 /* ViewController.swift */,
+				F18E92551FD4CF9D00553597 /* Main.storyboard */,
+				F18E925B1FD4CF9D00553597 /* Assets.xcassets */,
+				F18E925D1FD4CF9D00553597 /* LaunchScreen.storyboard */,
+				F18E92601FD4CF9D00553597 /* Info.plist */,
+				F18E92581FD4CF9D00553597 /* TodoRedux.xcdatamodeld */,
+			);
+			path = TodoRedux;
+			sourceTree = "<group>";
+		};
+		F18E92681FD4CF9D00553597 /* TodoReduxTests */ = {
+			isa = PBXGroup;
+			children = (
+				F18E92691FD4CF9D00553597 /* TodoReduxTests.swift */,
+				F18E926B1FD4CF9D00553597 /* Info.plist */,
+			);
+			path = TodoReduxTests;
+			sourceTree = "<group>";
+		};
+		F18E92731FD4CF9D00553597 /* TodoReduxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F18E92741FD4CF9D00553597 /* TodoReduxUITests.swift */,
+				F18E92761FD4CF9D00553597 /* Info.plist */,
+			);
+			path = TodoReduxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F18E924D1FD4CF9D00553597 /* TodoRedux */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18E92791FD4CF9D00553597 /* Build configuration list for PBXNativeTarget "TodoRedux" */;
+			buildPhases = (
+				F18E924A1FD4CF9D00553597 /* Sources */,
+				F18E924B1FD4CF9D00553597 /* Frameworks */,
+				F18E924C1FD4CF9D00553597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TodoRedux;
+			productName = TodoRedux;
+			productReference = F18E924E1FD4CF9D00553597 /* TodoRedux.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F18E92641FD4CF9D00553597 /* TodoReduxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18E927C1FD4CF9D00553597 /* Build configuration list for PBXNativeTarget "TodoReduxTests" */;
+			buildPhases = (
+				F18E92611FD4CF9D00553597 /* Sources */,
+				F18E92621FD4CF9D00553597 /* Frameworks */,
+				F18E92631FD4CF9D00553597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F18E92671FD4CF9D00553597 /* PBXTargetDependency */,
+			);
+			name = TodoReduxTests;
+			productName = TodoReduxTests;
+			productReference = F18E92651FD4CF9D00553597 /* TodoReduxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F18E926F1FD4CF9D00553597 /* TodoReduxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18E927F1FD4CF9D00553597 /* Build configuration list for PBXNativeTarget "TodoReduxUITests" */;
+			buildPhases = (
+				F18E926C1FD4CF9D00553597 /* Sources */,
+				F18E926D1FD4CF9D00553597 /* Frameworks */,
+				F18E926E1FD4CF9D00553597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F18E92721FD4CF9D00553597 /* PBXTargetDependency */,
+			);
+			name = TodoReduxUITests;
+			productName = TodoReduxUITests;
+			productReference = F18E92701FD4CF9D00553597 /* TodoReduxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F18E92461FD4CF9D00553597 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Andrew Halls";
+				TargetAttributes = {
+					F18E924D1FD4CF9D00553597 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					F18E92641FD4CF9D00553597 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F18E924D1FD4CF9D00553597;
+					};
+					F18E926F1FD4CF9D00553597 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F18E924D1FD4CF9D00553597;
+					};
+				};
+			};
+			buildConfigurationList = F18E92491FD4CF9D00553597 /* Build configuration list for PBXProject "TodoRedux" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F18E92451FD4CF9D00553597;
+			productRefGroup = F18E924F1FD4CF9D00553597 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F18E924D1FD4CF9D00553597 /* TodoRedux */,
+				F18E92641FD4CF9D00553597 /* TodoReduxTests */,
+				F18E926F1FD4CF9D00553597 /* TodoReduxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F18E924C1FD4CF9D00553597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18E925F1FD4CF9D00553597 /* LaunchScreen.storyboard in Resources */,
+				F18E925C1FD4CF9D00553597 /* Assets.xcassets in Resources */,
+				F18E92571FD4CF9D00553597 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18E92631FD4CF9D00553597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18E926E1FD4CF9D00553597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F18E924A1FD4CF9D00553597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18E92541FD4CF9D00553597 /* ViewController.swift in Sources */,
+				F18E92521FD4CF9D00553597 /* AppDelegate.swift in Sources */,
+				F18E925A1FD4CF9D00553597 /* TodoRedux.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18E92611FD4CF9D00553597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18E926A1FD4CF9D00553597 /* TodoReduxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18E926C1FD4CF9D00553597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18E92751FD4CF9D00553597 /* TodoReduxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F18E92671FD4CF9D00553597 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F18E924D1FD4CF9D00553597 /* TodoRedux */;
+			targetProxy = F18E92661FD4CF9D00553597 /* PBXContainerItemProxy */;
+		};
+		F18E92721FD4CF9D00553597 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F18E924D1FD4CF9D00553597 /* TodoRedux */;
+			targetProxy = F18E92711FD4CF9D00553597 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F18E92551FD4CF9D00553597 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F18E92561FD4CF9D00553597 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F18E925D1FD4CF9D00553597 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F18E925E1FD4CF9D00553597 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F18E92771FD4CF9D00553597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F18E92781FD4CF9D00553597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F18E927A1FD4CF9D00553597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TodoRedux/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.andrewhalls.TodoRedux;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F18E927B1FD4CF9D00553597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TodoRedux/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.andrewhalls.TodoRedux;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F18E927D1FD4CF9D00553597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TodoReduxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.andrewhalls.TodoReduxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoRedux.app/TodoRedux";
+			};
+			name = Debug;
+		};
+		F18E927E1FD4CF9D00553597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TodoReduxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.andrewhalls.TodoReduxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoRedux.app/TodoRedux";
+			};
+			name = Release;
+		};
+		F18E92801FD4CF9D00553597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TodoReduxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.andrewhalls.TodoReduxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TodoRedux;
+			};
+			name = Debug;
+		};
+		F18E92811FD4CF9D00553597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TodoReduxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.andrewhalls.TodoReduxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TodoRedux;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F18E92491FD4CF9D00553597 /* Build configuration list for PBXProject "TodoRedux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18E92771FD4CF9D00553597 /* Debug */,
+				F18E92781FD4CF9D00553597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F18E92791FD4CF9D00553597 /* Build configuration list for PBXNativeTarget "TodoRedux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18E927A1FD4CF9D00553597 /* Debug */,
+				F18E927B1FD4CF9D00553597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F18E927C1FD4CF9D00553597 /* Build configuration list for PBXNativeTarget "TodoReduxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18E927D1FD4CF9D00553597 /* Debug */,
+				F18E927E1FD4CF9D00553597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F18E927F1FD4CF9D00553597 /* Build configuration list for PBXNativeTarget "TodoReduxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18E92801FD4CF9D00553597 /* Debug */,
+				F18E92811FD4CF9D00553597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F18E92581FD4CF9D00553597 /* TodoRedux.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F18E92591FD4CF9D00553597 /* TodoRedux.xcdatamodel */,
+			);
+			currentVersion = F18E92591FD4CF9D00553597 /* TodoRedux.xcdatamodel */;
+			path = TodoRedux.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F18E92461FD4CF9D00553597 /* Project object */;
+}

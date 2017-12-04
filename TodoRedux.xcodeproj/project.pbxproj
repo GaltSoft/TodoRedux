@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F6871A0090C97AE1AF9A5C4 /* Pods_TodoRedux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7867B5B43E189A8CFF21176 /* Pods_TodoRedux.framework */; };
+		83EF791831962205C7B4DC6F /* Pods_TodoReduxUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12708111D42E728920333AB8 /* Pods_TodoReduxUITests.framework */; };
+		85CD862C4E220BA1B41B73EA /* Pods_TodoReduxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19F030B21CF457DEABC91AF /* Pods_TodoReduxTests.framework */; };
 		F18E92521FD4CF9D00553597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E92511FD4CF9D00553597 /* AppDelegate.swift */; };
 		F18E92541FD4CF9D00553597 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E92531FD4CF9D00553597 /* ViewController.swift */; };
 		F18E92571FD4CF9D00553597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18E92551FD4CF9D00553597 /* Main.storyboard */; };
@@ -35,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12708111D42E728920333AB8 /* Pods_TodoReduxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoReduxUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		376285D1153ECE8D6EEEE26E /* Pods-TodoRedux.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoRedux.release.xcconfig"; path = "Pods/Target Support Files/Pods-TodoRedux/Pods-TodoRedux.release.xcconfig"; sourceTree = "<group>"; };
+		81F0C3937A0C7A00502E82A0 /* Pods-TodoReduxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoReduxUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TodoReduxUITests/Pods-TodoReduxUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8CA8FC2730C417060B069CBC /* Pods-TodoReduxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoReduxTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TodoReduxTests/Pods-TodoReduxTests.release.xcconfig"; sourceTree = "<group>"; };
+		B590080730A23DC680321D04 /* Pods-TodoRedux.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoRedux.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TodoRedux/Pods-TodoRedux.debug.xcconfig"; sourceTree = "<group>"; };
+		C19F030B21CF457DEABC91AF /* Pods_TodoReduxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoReduxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED19BDD6E1315BCE40BB0D79 /* Pods-TodoReduxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoReduxUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TodoReduxUITests/Pods-TodoReduxUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F18E924E1FD4CF9D00553597 /* TodoRedux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoRedux.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F18E92511FD4CF9D00553597 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F18E92531FD4CF9D00553597 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		F18E92701FD4CF9D00553597 /* TodoReduxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoReduxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F18E92741FD4CF9D00553597 /* TodoReduxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoReduxUITests.swift; sourceTree = "<group>"; };
 		F18E92761FD4CF9D00553597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F72349B1E8E2DF69E57A4C1D /* Pods-TodoReduxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoReduxTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TodoReduxTests/Pods-TodoReduxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7867B5B43E189A8CFF21176 /* Pods_TodoRedux.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoRedux.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F6871A0090C97AE1AF9A5C4 /* Pods_TodoRedux.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85CD862C4E220BA1B41B73EA /* Pods_TodoReduxTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83EF791831962205C7B4DC6F /* Pods_TodoReduxUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65186C3C222F139A9EE1D97C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7867B5B43E189A8CFF21176 /* Pods_TodoRedux.framework */,
+				C19F030B21CF457DEABC91AF /* Pods_TodoReduxTests.framework */,
+				12708111D42E728920333AB8 /* Pods_TodoReduxUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5E452161DA97B8F17956D75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B590080730A23DC680321D04 /* Pods-TodoRedux.debug.xcconfig */,
+				376285D1153ECE8D6EEEE26E /* Pods-TodoRedux.release.xcconfig */,
+				F72349B1E8E2DF69E57A4C1D /* Pods-TodoReduxTests.debug.xcconfig */,
+				8CA8FC2730C417060B069CBC /* Pods-TodoReduxTests.release.xcconfig */,
+				81F0C3937A0C7A00502E82A0 /* Pods-TodoReduxUITests.debug.xcconfig */,
+				ED19BDD6E1315BCE40BB0D79 /* Pods-TodoReduxUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F18E92451FD4CF9D00553597 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				F18E92681FD4CF9D00553597 /* TodoReduxTests */,
 				F18E92731FD4CF9D00553597 /* TodoReduxUITests */,
 				F18E924F1FD4CF9D00553597 /* Products */,
+				E5E452161DA97B8F17956D75 /* Pods */,
+				65186C3C222F139A9EE1D97C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F18E92791FD4CF9D00553597 /* Build configuration list for PBXNativeTarget "TodoRedux" */;
 			buildPhases = (
+				9C246EAA6EA36DD966580A63 /* [CP] Check Pods Manifest.lock */,
 				F18E924A1FD4CF9D00553597 /* Sources */,
 				F18E924B1FD4CF9D00553597 /* Frameworks */,
 				F18E924C1FD4CF9D00553597 /* Resources */,
+				7DC11E4F0E88EAC3761CD917 /* [CP] Embed Pods Frameworks */,
+				632FB2D8E6C02CB24B95DC2F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F18E927C1FD4CF9D00553597 /* Build configuration list for PBXNativeTarget "TodoReduxTests" */;
 			buildPhases = (
+				8C8B807BA9CAB28C9439E43C /* [CP] Check Pods Manifest.lock */,
 				F18E92611FD4CF9D00553597 /* Sources */,
 				F18E92621FD4CF9D00553597 /* Frameworks */,
 				F18E92631FD4CF9D00553597 /* Resources */,
+				24C66057F51183B10BD585B2 /* [CP] Embed Pods Frameworks */,
+				D8524966927DAFB3DB41B9B4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F18E927F1FD4CF9D00553597 /* Build configuration list for PBXNativeTarget "TodoReduxUITests" */;
 			buildPhases = (
+				8FC888C76BA16B5461A8C77D /* [CP] Check Pods Manifest.lock */,
 				F18E926C1FD4CF9D00553597 /* Sources */,
 				F18E926D1FD4CF9D00553597 /* Frameworks */,
 				F18E926E1FD4CF9D00553597 /* Resources */,
+				31D768F8E7C716834EEB54A5 /* [CP] Embed Pods Frameworks */,
+				F6CD723130D3A56554C9C6CA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24C66057F51183B10BD585B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TodoReduxTests/Pods-TodoReduxTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31D768F8E7C716834EEB54A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TodoReduxUITests/Pods-TodoReduxUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		632FB2D8E6C02CB24B95DC2F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TodoRedux/Pods-TodoRedux-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DC11E4F0E88EAC3761CD917 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TodoRedux/Pods-TodoRedux-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TodoRedux/Pods-TodoRedux-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C8B807BA9CAB28C9439E43C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TodoReduxTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FC888C76BA16B5461A8C77D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TodoReduxUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C246EAA6EA36DD966580A63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TodoRedux-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8524966927DAFB3DB41B9B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TodoReduxTests/Pods-TodoReduxTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6CD723130D3A56554C9C6CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TodoReduxUITests/Pods-TodoReduxUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F18E924A1FD4CF9D00553597 /* Sources */ = {
@@ -428,9 +627,11 @@
 		};
 		F18E927A1FD4CF9D00553597 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B590080730A23DC680321D04 /* Pods-TodoRedux.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FCFUAUMXPQ;
 				INFOPLIST_FILE = TodoRedux/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.andrewhalls.TodoRedux;
@@ -442,9 +643,11 @@
 		};
 		F18E927B1FD4CF9D00553597 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 376285D1153ECE8D6EEEE26E /* Pods-TodoRedux.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FCFUAUMXPQ;
 				INFOPLIST_FILE = TodoRedux/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.andrewhalls.TodoRedux;
@@ -456,6 +659,7 @@
 		};
 		F18E927D1FD4CF9D00553597 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F72349B1E8E2DF69E57A4C1D /* Pods-TodoReduxTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,6 +676,7 @@
 		};
 		F18E927E1FD4CF9D00553597 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CA8FC2730C417060B069CBC /* Pods-TodoReduxTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +693,7 @@
 		};
 		F18E92801FD4CF9D00553597 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81F0C3937A0C7A00502E82A0 /* Pods-TodoReduxUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +709,7 @@
 		};
 		F18E92811FD4CF9D00553597 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED19BDD6E1315BCE40BB0D79 /* Pods-TodoReduxUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

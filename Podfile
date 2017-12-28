@@ -19,9 +19,9 @@ target 'TodoRedux' do
     # Pods for testing
   end
   
-  target 'TodoReduxPlayground' do
-      inherit! :search_paths
-      # Pods for testing
-   end
+  # target 'TodoReduxPlayground' do
+  #     inherit! :search_paths
+  #     # Pods for testing
+  #  end
 
 end

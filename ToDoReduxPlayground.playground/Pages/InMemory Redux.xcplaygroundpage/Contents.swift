@@ -6,8 +6,7 @@ import ReSwift
 var str = "Hello, playground"
 
 class TodoItem: CustomStringConvertible, CustomDebugStringConvertible {
-   
-    
+
     var id: String
     var title: String
     var completed: Bool
@@ -98,6 +97,3 @@ if let lastItem = viewModel.lastItem {
     changedItem.completed = true
     mainStore.dispatch(TodoItemUpdateAction(todoItem: changedItem))
 }
-
-
-
